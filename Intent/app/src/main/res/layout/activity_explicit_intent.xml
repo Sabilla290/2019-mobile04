@@ -40,12 +40,16 @@
                 />
         </LinearLayout>
 
+    // di tambah handle
     <Button
         android:text="@string/submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:onClick="handleSubmit"
+
         />
+
 
     <TextView
         android:id="@+id/text_output"
